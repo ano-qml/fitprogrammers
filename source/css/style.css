@@ -113,6 +113,9 @@ a:hover {
 }
 .container {
     margin-bottom: 20px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 .container_body {
     margin: 15px;
@@ -157,7 +160,8 @@ a:hover {
 }
 .q_content {
     float: right;
-    width: 595px;
+    width: 580px;
+    margin-right: 15px;
 }
 .q_content h2 a {
     color: #660033;
@@ -221,7 +225,7 @@ a:hover {
 }
 
 /* Question details */
-.post_tilte {
+.post_title {
     border-bottom: 1px solid #000000;
     font-size: 1.8em;
     padding-bottom: 10px;
@@ -230,12 +234,14 @@ a:hover {
 
 .post_container {
     margin-bottom: 20px;
+    clear: both;
 }
 
 .post_left {
     width: 40px;
     text-align: center;
     float: left;
+    margin-top: 20px;
 }
 
 .post_left a img {
@@ -258,12 +264,14 @@ a:hover {
 .post_right {
     float: right;
     width: 680px;
+    margin-top: 20px;
 }
 
 .post_body {
     line-height: 20px;
     font-size: 1.25em;
     margin-bottom: 20px;
+    width: 680px;
 }
 
 .post_tags {
@@ -289,12 +297,11 @@ a:hover {
 }
 
 .post_comments {
-    
 }
 
 .post_answer_title {
     padding-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 2.25em;
     font-weight: bold;
     border-bottom: 1px solid #000000;
@@ -308,4 +315,22 @@ a:hover {
     margin-top: 30px;
     padding-top: 10px;
     border-top: 1px solid #009900;
+}
+
+.error {
+    color: #CC0000 !important; 
+    font-style: italic;
+}
+
+.post_clear {
+    clear: left; 
+}
+
+.hr {
+    width: 750px;
+    clear: left;
+    border:none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 15px;
+    height: 20px;
 }

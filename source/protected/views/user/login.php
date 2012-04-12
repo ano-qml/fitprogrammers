@@ -4,18 +4,42 @@
 
 <div class="login_form">
     <h1>Login information</h1>
-    <form class="ask_form">
+    <?php $form = $this->beginWidget('CActiveForm', array(
+        'id'=>'user-form',
+        'enableAjaxValidation'=>true,
+        'clientOptions'=>array(
+            'enableClientValidation'=>true,
+            'enableAjaxValidation'=>true,
+            'validateOnSubmit'=>true,
+            'validateOnChange'=>true,
+            'validateOnType'=>false
+        ),
+        'htmlOptions'=>array('class'=>'ask_form')
+    ));
+    ?>
         <p>
-            <span class="ask_title">Username</span>
-            <input type="text" value="your FIT Student Number" class="textbox" />
+            <!-- Error summary -->
+            <?php echo $form->errorSummary($model); ?>
+        </p>
+        <p>
+            <span class="ask_title">Account</span>
+            <?php
+            echo $form->textField($model, 'fitportal_id', array('class'=>'textbox'));
+            echo $form->error($model,'fitportal_id', array('class'=>'error'));
+            ?>
         </p>
         <p>
             <span class="ask_title">Password</span>
-            <input type="text" value="Your password" class="textbox" />
+            <?php
+            echo $form->passwordField($model, 'password', array('class'=>'textbox'));
+            echo $form->error($model,'password', array('class'=>'error'));
+            ?>
         </p>
 
         <p>
-            <input type="submit" value="Login" class="ask_submit" />
+            <?php
+            echo CHtml::submitButton('Login', array('class'=>'ask_submit'));
+            ?>
         </p>
-    </form>  
+    <?php $this->endWidget(); ?>
 </div>

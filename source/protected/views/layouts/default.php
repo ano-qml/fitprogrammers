@@ -7,7 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Hanusoft - FIT Programmers</title>
     <link type="text/css" rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/css/style.css" />
-    <script src="<?php echo Yii::app()->baseUrl ?>/scripts/jquery.js"></script>
     <!-- jQuery UI -->
     <link type="text/css" href="<?php echo Yii::app()->baseUrl ?>/css/humanity/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/scripts/jquery-ui-1.8.18.custom.min.js"></script>
@@ -15,10 +14,10 @@
     <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/css/jquery.wysiwyg.css" type="text/css" />
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/scripts/jquery.wysiwyg.js"></script>
     <script type="text/javascript">
-    $(function()
-    {
-        $('#wysiwyg').wysiwyg();
-    });
+        $(function()
+        {
+            $('#wysiwyg').wysiwyg();
+        });
     </script>
     
     <!-- Fancy Box -->
@@ -37,10 +36,13 @@
                 <ul>
                     <li><a href="<?php echo Yii::app()->createUrl('questions') ?>">Questions</a></li>
                     <li><a href="<?php echo Yii::app()->createUrl('tags') ?>">Tags</a></li>
+                    <!--
                     <li><a href="<?php echo Yii::app()->createUrl('badges') ?>">Badges</a></li>
+                    -->
                     <li><a href="<?php echo Yii::app()->createUrl('questions/unanswered') ?>">Unanswered</a></li>
-                    <li><a href="<?php echo Yii::app()->createUrl('user/login') ?>">Login</a></li>
-                    <li class="selected""><a href="<?php echo Yii::app()->createUrl('user/register') ?>">Register</a></li>
+                    <?php
+                    $this->widget('application.components.widgets.WUserLogin');
+                    ?>
                 </ul>
             </div>
             <div class="ask_question">

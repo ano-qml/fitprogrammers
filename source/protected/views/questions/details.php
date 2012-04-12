@@ -1,4 +1,4 @@
-<div class="post_tilte">
+<div class="post_title">
     A question on .NET Course: how can we manage to do the source code when we dont know it
 </div>
 
@@ -7,40 +7,26 @@
     <div class="post_container">
         <div class="post_left">
             <a href="#"><img src="<?php echo Yii::app()->baseUrl ?>/images/vote_up.png" /></a>
-            <span class="vote_count">4</span>
+            <span class="vote_count">
+                <?php echo $question->vote_up_count - $question->vote_down_count; ?>
+            </span>
             <a href="#"><img src="<?php echo Yii::app()->baseUrl ?>/images/vote_down.png" /></a>
             <a href="#" class="star"><img src="<?php echo Yii::app()->baseUrl ?>/images/star.png" /></a>
         </div>
         <div class="post_right">
             <div class="post_body">
-                I've a complex flow where I've to attach mouseover event for every polyline on the map. The code for attaching the event is simple:
-
-google.maps.event.addListener(polyline, "mouseover", function() {
-            console.log('event fired');
-
-        });
-
-But the event is attaching to few polylines and not to others. What might be the reason?
-
-Edit
-
-Following is some more code that is before the above code and used for defining polyline:
-
-    this.polyline = new google.maps.Polyline({
-                path : [fromPosition, toPosition],
-                strokeColor : '#CCCCCC',
-                strokeOpacity : 1.0,
-                strokeWeight : 2
-            });
-   var polyline = this.polyline;
-
-Edit 05-Apr-2012
-
-Following is the code that creates problem, Please explain why it's happening and recommend any solution. Thanks
+                <?php
+                echo $question->body;
+                ?>
             </div>
             <div class="post_tags">
-                <a href="#" class="tag" title="tags">.NET</a>
-                <a href="#" class="tag" title="tags">.NET</a>
+                <?php
+                for ($i = 0; $i < count($question->tags); $i++) { 
+                ?>
+                <a href="<?php echo Yii::app()->createUrl('tags/index',array('name'=>trim($question->tags[$i])))?>" class="tag" title="tags"><?php echo trim($question->tags[$i]); ?></a>
+                <?php
+                }
+                ?>
             </div>
             <div class="post_actions">
                 <a href="#">link</a>
@@ -48,54 +34,32 @@ Following is the code that creates problem, Please explain why it's happening an
                 <a href="#">edit</a>
             </div>
             <div class="post_info">
-                asked <b>Mar 27, 2012</b>
+                asked <b><?php echo $question->created_date; ?></b>
                 <br />
-                <a href="#">MinhHQ</a>
+                <a href="#"><?php echo FMembership::getAuthor($question->author)->getAttribute('real_name'); ?></a>
             </div>
             <div class="post_comments"></div>
         </div>
     </div>
     
-    <div class="post_answer_title">4 answers</div>
+    <div class="post_answer_title"><?php echo count($answers); ?> answers</div>
     
     
+    <?php
+    foreach($answers as $answer) {
+    ?>
     <div class="post_container">
         <div class="post_left">
             <a href="#"><img src="<?php echo Yii::app()->baseUrl ?>/images/vote_up.png" /></a>
-            <span class="vote_count">4</span>
+            <span class="vote_count"><?php echo $answer->vote_up_count - $answer->vote_down_count; ?></span>
             <a href="#"><img src="<?php echo Yii::app()->baseUrl ?>/images/vote_down.png" /></a>
             <a href="#" class="star"><img src="<?php echo Yii::app()->baseUrl ?>/images/star.png" /></a>
         </div>
         <div class="post_right">
             <div class="post_body">
-                I've a complex flow where I've to attach mouseover event for every polyline on the map. The code for attaching the event is simple:
-
-google.maps.event.addListener(polyline, "mouseover", function() {
-            console.log('event fired');
-
-        });
-
-But the event is attaching to few polylines and not to others. What might be the reason?
-
-Edit
-
-Following is some more code that is before the above code and used for defining polyline:
-
-    this.polyline = new google.maps.Polyline({
-                path : [fromPosition, toPosition],
-                strokeColor : '#CCCCCC',
-                strokeOpacity : 1.0,
-                strokeWeight : 2
-            });
-   var polyline = this.polyline;
-
-Edit 05-Apr-2012
-
-Following is the code that creates problem, Please explain why it's happening and recommend any solution. Thanks
-            </div>
-            <div class="post_tags">
-                <a href="#" class="tag" title="tags">.NET</a>
-                <a href="#" class="tag" title="tags">.NET</a>
+                <?php
+                echo $answer->body;
+                ?>
             </div>
             <div class="post_actions">
                 <a href="#">link</a>
@@ -103,26 +67,56 @@ Following is the code that creates problem, Please explain why it's happening an
                 <a href="#">edit</a>
             </div>
             <div class="post_info">
-                answered <b>Mar 27, 2012</b>
+                answered <b><?php echo $answer->created_date ?></b>
                 <br />
-                <a href="#">MinhHQ</a>
+                <a href="#"><?php echo FMembership::getAuthor($answer->author)->getAttribute('real_name'); ?></a>
             </div>
             <div class="post_comments"></div>
         </div>
     </div>
+    <hr class="hr" />
+    <?php
+    }
+    ?>
     
     
     <div class="your_answer">
         <h1>Your answer</h1>
-        <form class="ask_form">
+        <?php $form = $this->beginWidget('CActiveForm', array(
+            'id'=>'user-form',
+            'enableAjaxValidation'=>true,
+            'clientOptions'=>array(
+                'enableClientValidation'=>true,
+                'enableAjaxValidation'=>true,
+                'validateOnSubmit'=>true,
+                'validateOnChange'=>true,
+                'validateOnType'=>false
+            ),
+            'htmlOptions'=>array('class'=>'ask_form')
+        ));
+        //$form = new CActiveForm;
+        ?>
             <p>
-                <textarea name="wysiwyg" id="wysiwyg" class="ask_editor"></textarea>
+                <?php
+                echo $form->textArea($model, 'body', array('class'=>'ask_editor','id'=>'wysiwyg'));
+                echo $form->error($model,'body', array('class'=>'error'));
+                ?>
             </p>
             
             <p>
-                <input type="submit" value="Ask Fiters" class="ask_submit" />
+                <?php $this->widget('application.extensions.recaptcha.EReCaptcha', 
+                array('model'=>$model, 'attribute'=>'validation',
+                        'theme'=>'red', 'language'=>'en_US', 
+                        'publicKey'=>'6LdYINASAAAAANWkdvvw_P9Xrn9OIHhRisv5pleh ')) ?>
+                <?php echo CHtml::error($model, 'validation'); ?>
             </p>
-        </form> 
+            
+            <p>
+                <?php
+                echo CHtml::submitButton('post answer', array('class'=>'ask_submit'));
+                ?>
+            </p>
+        <?php $this->endWidget(); ?> 
     </div>
 </div>
 

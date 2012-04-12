@@ -4,7 +4,15 @@ class HomeController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->render('index');
+        $criteria = new CDbCriteria();
+        $criteria->condition = 'is_a_question = 1';
+        
+        $models = Posts::model()->findAll($criteria);
+        foreach ($models as $model) {
+            $model->tags = explode(",", $model->tags);
+        }
+        
+		$this->render('index', array('models'=>$models));
 	}
 
 	// Uncomment the following methods and override them if needed

@@ -1,24 +1,52 @@
 <div id="leftcol">
     <h1>Ask a question</h1>
-    <form class="ask_form">
+    <?php $form = $this->beginWidget('CActiveForm', array(
+        'id'=>'user-form',
+        'enableAjaxValidation'=>true,
+        'clientOptions'=>array(
+            'enableClientValidation'=>true,
+            'enableAjaxValidation'=>true,
+            'validateOnSubmit'=>true,
+            'validateOnChange'=>true,
+            'validateOnType'=>false
+        ),
+        'htmlOptions'=>array('class'=>'ask_form')
+    ));
+    //$form = new CActiveForm;
+    ?>
         <p>
             <span class="ask_title">Title</span>
-            <input type="text" value="what is your programming question?" class="textbox" />
+            <?php
+            echo $form->textField($model, 'title', array('class'=>'textbox'));
+            echo $form->error($model,'title', array('class'=>'error'));
+            ?>
+            <br />
+            <i>what is your programming question?</i>
         </p>
 
         <p>
-            <textarea name="wysiwyg" id="wysiwyg" class="ask_editor"></textarea>
+            <?php
+            echo $form->textArea($model, 'body', array('class'=>'ask_editor','id'=>'wysiwyg'));
+            echo $form->error($model,'body', array('class'=>'error'));
+            ?>
         </p>
 
         <p>
             <span class="ask_title">Tags</span>
-            <input type="text" value="at least one tag, max 10 tags" class="textbox" />
+            <?php
+            echo $form->textField($model, 'tags', array('class'=>'textbox'));
+            echo $form->error($model,'tags', array('class'=>'error'));
+            ?>
+            <br />
+            <i>at least one tag, max 10 tags. For example: csharp, .net, sql server, syntax error</i>
         </p>
 
         <p>
-            <input type="submit" value="Ask Fiters" class="ask_submit" />
+            <?php
+            echo CHtml::submitButton('ask question', array('class'=>'ask_submit'));
+            ?>
         </p>
-    </form>           
+    <?php $this->endWidget(); ?>        
 </div>
 
 

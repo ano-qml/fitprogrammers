@@ -14,6 +14,7 @@
  * @property string $vote_up_count
  * @property string $vote_down_count
  * @property string $view_count
+ * @property string $answer_count
  * @property string $created_date
  * @property integer $is_best_answer
  * @property integer $is_a_question
@@ -33,6 +34,8 @@ class Posts extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+    public $validation;
 
 	/**
 	 * @return string the associated database table name
@@ -52,12 +55,18 @@ class Posts extends CActiveRecord
 		return array(
 			array('post_unique_id, last_version_id, title, body, author, tags, parent_unique_id', 'required'),
 			array('is_best_answer, is_a_question, is_answered, is_a_comment, bounty', 'numerical', 'integerOnly'=>true),
-			array('post_unique_id, last_version_id, author, vote_up_count, vote_down_count, view_count, parent_unique_id', 'length', 'max'=>20),
+			array('post_unique_id, last_version_id, author, vote_up_count, vote_down_count, view_count, answer_count, parent_unique_id', 'length', 'max'=>20),
 			array('title', 'length', 'max'=>255),
 			array('created_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('post_unique_id, post_id, last_version_id, title, body, author, tags, vote_up_count, vote_down_count, view_count, created_date, is_best_answer, is_a_question, is_answered, is_a_comment, bounty, parent_unique_id', 'safe', 'on'=>'search'),
+			array('post_unique_id, post_id, last_version_id, title, body, author, tags, vote_up_count, vote_down_count, view_count, answer_count, created_date, is_best_answer, is_a_question, is_answered, is_a_comment, bounty, parent_unique_id', 'safe', 'on'=>'search'),
+            // Recaptcha extensions
+            array('validation', 
+               'application.extensions.recaptcha.EReCaptchaValidator', 
+               'privateKey'=>'6LdYINASAAAAAFggiZX4KsNboGfUYVhPYIpX67SS ',
+                'on' => 'registerwcaptcha'),
+                
 		);
 	}
 
@@ -88,6 +97,7 @@ class Posts extends CActiveRecord
 			'vote_up_count' => 'Vote Up Count',
 			'vote_down_count' => 'Vote Down Count',
 			'view_count' => 'View Count',
+			'answer_count' => 'Answer Count',
 			'created_date' => 'Created Date',
 			'is_best_answer' => 'Is Best Answer',
 			'is_a_question' => 'Is A Question',
@@ -95,6 +105,8 @@ class Posts extends CActiveRecord
 			'is_a_comment' => 'Is A Comment',
 			'bounty' => 'Bounty',
 			'parent_unique_id' => 'Parent Unique',
+            // Recaptcha
+            'validation'=>Yii::t('demo', 'Enter both words separated by a space: '),
 		);
 	}
 
@@ -119,6 +131,7 @@ class Posts extends CActiveRecord
 		$criteria->compare('vote_up_count',$this->vote_up_count,true);
 		$criteria->compare('vote_down_count',$this->vote_down_count,true);
 		$criteria->compare('view_count',$this->view_count,true);
+		$criteria->compare('answer_count',$this->answer_count,true);
 		$criteria->compare('created_date',$this->created_date,true);
 		$criteria->compare('is_best_answer',$this->is_best_answer);
 		$criteria->compare('is_a_question',$this->is_a_question);

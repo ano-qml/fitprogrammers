@@ -1,1 +1,1 @@
-<h1>This feature is temporarily disabled!</h1>
+<h1>This system is current available for FITers only! Please use your FIT Portal Account to login.</h1>

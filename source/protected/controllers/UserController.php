@@ -4,18 +4,47 @@ class UserController extends Controller
 {
 	public function actionLogin()
 	{
-		$this->render('login');
+        $model = new UserLogin;
+        $this->performAjaxValidation($model);
+        if (isset($_POST['UserLogin'])) {
+            $model->attributes = $_POST['UserLogin'];
+            if ($model->validate()) {
+                $user = $model->find('fitportal_id = :fitportal AND password = :password',array(
+                    'fitportal'=>$model->fitportal_id,
+                    'password'=>  md5($model->password)
+                ));
+                $userinfo = new FUserInfo();
+                // Login
+                if ($user != null) {
+                    $userinfo->user = $user;
+                    FMembership::saveSession($userinfo);
+                }
+                $this->redirect(Yii::app()->createUrl('home/index'));
+            }
+        }
+		$this->render('login', array('model'=>$model));
 	}
 
 	public function actionLogout()
 	{
-		$this->render('logout');
+        session_destroy();
+        $this->redirect(Yii::app()->createUrl('home/index'));
 	}
 
 	public function actionRegister()
 	{
 		$this->render('register');
 	}
+    
+    
+    protected function performAjaxValidation($model)
+    {
+        if(isset($_POST['ajax']) && $_POST['ajax']==='user-form')
+        {
+            echo CActiveForm::validate($model);
+            Yii::app()->end();
+        }
+    }
 
 	// Uncomment the following methods and override them if needed
 	/*
