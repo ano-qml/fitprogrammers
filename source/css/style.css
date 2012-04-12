@@ -317,7 +317,7 @@ a:hover {
     border-top: 1px solid #009900;
 }
 
-.error {
+div.error {
     color: #CC0000 !important; 
     font-style: italic;
 }

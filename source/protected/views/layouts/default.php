@@ -11,14 +11,9 @@
     <link type="text/css" href="<?php echo Yii::app()->baseUrl ?>/css/humanity/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/scripts/jquery-ui-1.8.18.custom.min.js"></script>
     <!-- WYSIWYG Editor -->
-    <link rel="stylesheet" href="<?php echo Yii::app()->baseUrl ?>/css/jquery.wysiwyg.css" type="text/css" />
-    <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/scripts/jquery.wysiwyg.js"></script>
-    <script type="text/javascript">
-        $(function()
-        {
-            $('#wysiwyg').wysiwyg();
-        });
-    </script>
+    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
+						
     
     <!-- Fancy Box -->
     <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>

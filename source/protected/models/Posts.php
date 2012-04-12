@@ -35,7 +35,7 @@ class Posts extends CActiveRecord
 		return parent::model($className);
 	}
     
-    public $validation;
+    public $captcha;
 
 	/**
 	 * @return string the associated database table name
@@ -53,20 +53,14 @@ class Posts extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('post_unique_id, last_version_id, title, body, author, tags, parent_unique_id', 'required'),
-			array('is_best_answer, is_a_question, is_answered, is_a_comment, bounty', 'numerical', 'integerOnly'=>true),
-			array('post_unique_id, last_version_id, author, vote_up_count, vote_down_count, view_count, answer_count, parent_unique_id', 'length', 'max'=>20),
-			array('title', 'length', 'max'=>255),
+			array('post_unique_id, last_version_id, title, author, tags, parent_unique_id', 'required'),
+			//array('is_best_answer, is_a_question, is_answered, is_a_comment, bounty', 'numerical', 'integerOnly'=>true),
+			array('last_version_id, author, vote_up_count, vote_down_count, view_count, answer_count', 'length', 'max'=>20),
+			array('post_unique_id, title, parent_unique_id', 'length', 'max'=>255),
 			array('created_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('post_unique_id, post_id, last_version_id, title, body, author, tags, vote_up_count, vote_down_count, view_count, answer_count, created_date, is_best_answer, is_a_question, is_answered, is_a_comment, bounty, parent_unique_id', 'safe', 'on'=>'search'),
-            // Recaptcha extensions
-            array('validation', 
-               'application.extensions.recaptcha.EReCaptchaValidator', 
-               'privateKey'=>'6LdYINASAAAAAFggiZX4KsNboGfUYVhPYIpX67SS ',
-                'on' => 'registerwcaptcha'),
-                
 		);
 	}
 
@@ -105,8 +99,6 @@ class Posts extends CActiveRecord
 			'is_a_comment' => 'Is A Comment',
 			'bounty' => 'Bounty',
 			'parent_unique_id' => 'Parent Unique',
-            // Recaptcha
-            'validation'=>Yii::t('demo', 'Enter both words separated by a space: '),
 		);
 	}
 

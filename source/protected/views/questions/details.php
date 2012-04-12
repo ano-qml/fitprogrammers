@@ -82,7 +82,8 @@
     
     <div class="your_answer">
         <h1>Your answer</h1>
-        <?php $form = $this->beginWidget('CActiveForm', array(
+        <?php 
+        $form = $this->beginWidget('CActiveForm', array(
             'id'=>'user-form',
             'enableAjaxValidation'=>true,
             'clientOptions'=>array(
@@ -94,21 +95,12 @@
             ),
             'htmlOptions'=>array('class'=>'ask_form')
         ));
-        //$form = new CActiveForm;
         ?>
             <p>
                 <?php
-                echo $form->textArea($model, 'body', array('class'=>'ask_editor','id'=>'wysiwyg'));
-                echo $form->error($model,'body', array('class'=>'error'));
+                echo $form->textArea($model, 'body', array('class'=>'ask_editor'));
+                echo $form->error($model ,'body');
                 ?>
-            </p>
-            
-            <p>
-                <?php $this->widget('application.extensions.recaptcha.EReCaptcha', 
-                array('model'=>$model, 'attribute'=>'validation',
-                        'theme'=>'red', 'language'=>'en_US', 
-                        'publicKey'=>'6LdYINASAAAAANWkdvvw_P9Xrn9OIHhRisv5pleh ')) ?>
-                <?php echo CHtml::error($model, 'validation'); ?>
             </p>
             
             <p>

@@ -18,7 +18,7 @@
             <span class="ask_title">Title</span>
             <?php
             echo $form->textField($model, 'title', array('class'=>'textbox'));
-            echo $form->error($model,'title', array('class'=>'error'));
+            echo $form->error($model,'title');
             ?>
             <br />
             <i>what is your programming question?</i>
@@ -26,8 +26,8 @@
 
         <p>
             <?php
-            echo $form->textArea($model, 'body', array('class'=>'ask_editor','id'=>'wysiwyg'));
-            echo $form->error($model,'body', array('class'=>'error'));
+            echo $form->textArea($model, 'body', array('class'=>'ask_editor'));
+            echo $form->error($model,'body');
             ?>
         </p>
 
@@ -35,7 +35,7 @@
             <span class="ask_title">Tags</span>
             <?php
             echo $form->textField($model, 'tags', array('class'=>'textbox'));
-            echo $form->error($model,'tags', array('class'=>'error'));
+            echo $form->error($model,'tags');
             ?>
             <br />
             <i>at least one tag, max 10 tags. For example: csharp, .net, sql server, syntax error</i>

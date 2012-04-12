@@ -20,20 +20,22 @@ class QuestionsController extends Controller
         if (isset($_POST['Posts'])) {
             // Required Login
             FSecurity::requiredLogin();
-            
+            // Get attributes
             $model->attributes = $_POST['Posts'];
-            // Make a new question
+            // Prepare data for validate
             $model->post_unique_id = FApp::guid();
             $model->last_version_id = -1;
             $model->author = FMembership::getUser()->user->member_id;
             $model->parent_unique_id = 0;
             $model->created_date = date('Y-m-d H:i:s');
-            $model->is_a_question = true;
-            $model->is_answered = false;
-            // Process Tags
-            FTags::makeTags($model->tags);
-            
-            if ($model->insert()) $this->redirect (Yii::app()->createUrl('home/index'));
+            $model->is_a_question = 1;
+            $model->is_answered = 0;
+            // Validate
+            if ($model->validate() && strlen(trim($model->body)) > 0) {
+                // Process Tags
+                //FTags::makeTags($model->tags);
+                if ($model->insert()) $this->redirect(Yii::app()->createUrl('home/index'));
+            }
         }
 		$this->render('post',array('model'=>$model));
 	}
@@ -45,7 +47,7 @@ class QuestionsController extends Controller
         ));
         // Update view count
         $question->setAttribute('view_count', $question->getAttribute('view_count')+1);
-        $question->save();
+        $question->update();
         
         $question->tags = explode(",", $question->tags);
         
@@ -55,34 +57,36 @@ class QuestionsController extends Controller
         
         // Model for answers
         $model = new Posts;
-        $model->scenario = 'registerwcaptcha';
+        // Perforam ajax validation
         $this->performAjaxValidation($model);
         if (isset($_POST['Posts'])) {
             // Check identity - Required Login
             FSecurity::requiredLogin();
-            
-            // NULL Captcha
-            //$model->scenario = NULL;
-            // Post an answer
+            // Get attributes
             $model->attributes = $_POST['Posts'];
-            if (strlen(trim($model->body)) != 0) {
-                $model->post_unique_id = FApp::guid();
-                $model->last_version_id = -1;
-                $model->title = null;
-                $model->author = FMembership::getUser()->user->member_id;
-                $model->parent_unique_id = $uid;
-                $model->created_date = date('Y-m-d H:i:s');
-                $model->is_a_question = false;
-                $model->tags = null;
+            // Prepare data for validate
+            $model->post_unique_id = FApp::guid();
+            $model->last_version_id = -1;
+            $model->title = $question->title;
+            $model->author = FMembership::getUser()->user->member_id;
+            $model->parent_unique_id = $uid;
+            $model->created_date = date('Y-m-d H:i:s');
+            $model->is_a_question = 0;
+            $model->tags = $question->tags;
+            // Validate
+            if ($model->validate()) {
+                // Post an answer
+                if (strlen(trim($model->body)) > 0) {
+                    /* 
+                    * Update post statistics
+                    */
+                    $question->setAttribute('answer_count', $question->getAttribute('answer_count')+1);
+                    $question->tags = implode(",", $question->tags);
+                    $question->update();
 
-                /* 
-                * Update post statistics
-                */
-                $question->setAttribute('answer_count', $question->getAttribute('answer_count')+1);
-                $question->save();
-
-                // Insert
-                if ($model->insert()) $this->redirect (Yii::app()->createUrl('questions/details', array('uid'=>$uid)));
+                    // Insert
+                    if ($model->insert()) $this->redirect (Yii::app()->createUrl('questions/details', array('uid'=>$uid)));
+                }
             }
         }
         
@@ -115,17 +119,15 @@ class QuestionsController extends Controller
 			),
 		);
 	}
+     * 
+     */
 
 	public function actions()
 	{
 		// return external action classes, e.g.:
 		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
+			'captcha'=>'CCaptchaAction',
 		);
 	}
-	*/
+	
 }

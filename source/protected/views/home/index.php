@@ -13,7 +13,7 @@
             </div>
             <div class="q_status unanswered">
                 <div class="q_counter">
-                    <?php echo $model->answer_count; ?>
+                    <?php echo FPost::getAnswerCount($model->post_unique_id) ?>
                 </div>
                 <div>answer</div>
             </div>
