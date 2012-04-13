@@ -59,6 +59,14 @@
         <div class="container_body">
             I am pleased to announce the first version of FIT Programmers System.
             An environment where FITers can share and ask questions about Programming.
+            <br />
+            Important notes:
+            <ul>
+                <li>Use your FIT Portal username</li>
+                <li>The default password is posted on FIT forum</li>
+                <li>Remember to change password</li>
+                <li><b>To change password: click on "Hello, username" on the Menu</b></li>
+            </ul>
         </div>
     </div>
 

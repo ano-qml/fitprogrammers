@@ -8,7 +8,7 @@ if ($user == null) {
 }
 else {
     ?>
-<li class="selected"><a href="#">Hello, <?php echo $user->user->fitportal_id; ?></a></li>
+<li class="selected"><a href="<?php echo Yii::app()->createUrl('user/changepassword') ?>">Hello, <?php echo $user->user->fitportal_id; ?></a></li>
 <li ><a href="<?php echo Yii::app()->createUrl('user/logout') ?>">Logout</a></li>
 <?php
 }

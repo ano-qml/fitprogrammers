@@ -12,7 +12,7 @@
  */
 class FApp {
     //put your code here
-    public static $_VERSION = '0.1';
+    public static $_VERSION = '0.2';
     
     public static function guid($include_braces = false) {
         if (function_exists('com_create_guid')) {

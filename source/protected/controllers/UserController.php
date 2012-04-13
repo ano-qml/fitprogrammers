@@ -36,6 +36,26 @@ class UserController extends Controller
 		$this->render('register');
 	}
     
+    public function actionChangePassword() {
+        $model = UserChangePassword::model()->find('member_id = '.FMembership::getUser()->user->member_id);
+        $compare = Members::model()->find('member_id = '.FMembership::getUser()->user->member_id);
+        $this->performAjaxValidation($model);
+        
+        if (isset($_POST['UserChangePassword'])) {
+            $model->attributes = $_POST['UserChangePassword'];
+            if ($model->validate()) {
+                if ($compare->password === md5($model->oldPassword)) {
+                    // change password
+                    $compare->password = md5($model->password);
+                    $compare->update();
+                    $this->redirect(Yii::app()->createUrl('user/logout'));
+                }
+            }
+        }
+        
+        $this->render('changepassword', array('model'=>$model));
+    }
+    
     
     protected function performAjaxValidation($model)
     {

@@ -60,9 +60,7 @@
             <br />
             <i>
                 Last updated on [<?php echo date ("F d Y H:i:s.", filemtime(Yii::app()->basePath.'/components/Controller.php')) ?>]. 
-                Current version: <?php echo FApp::$_VERSION; ?>.
-                You can checkout the source code on GitHub @ 
-                <a href="https://github.com/ano-qml/fitprogrammers">https://github.com/ano-qml/fitprogrammers</a>
+                Current version: <?php echo FApp::$_VERSION; ?>
             </i>
         </div>
     </div>

@@ -1,9 +1,9 @@
 <div class="post_title">
-    Login to FITProgrammers
+    User Profile
 </div>
 
 <div class="login_form">
-    <h1>Login information</h1>
+    <h1>Change your password</h1>
     <?php $form = $this->beginWidget('CActiveForm', array(
         'id'=>'user-form',
         'enableAjaxValidation'=>true,
@@ -22,23 +22,31 @@
             <?php echo $form->errorSummary($model); ?>
         </p>
         <p>
-            <span class="ask_title">Account</span>
+            <span class="ask_title">Old password</span>
             <?php
-            echo $form->textField($model, 'fitportal_id', array('class'=>'textbox'));
-            echo $form->error($model,'fitportal_id', array('class'=>'error'));
+            echo $form->passwordField($model, 'oldPassword', array('class'=>'textbox'));
+            echo $form->error($model,'oldPassword');
             ?>
         </p>
         <p>
-            <span class="ask_title">Password</span>
+            <span class="ask_title">New password</span>
             <?php
             echo $form->passwordField($model, 'password', array('class'=>'textbox'));
-            echo $form->error($model,'password', array('class'=>'error'));
+            echo $form->error($model,'password');
+            ?>
+        </p>
+        
+        <p>
+            <span class="ask_title">Confirm new password</span>
+            <?php
+            echo $form->passwordField($model, 'password2', array('class'=>'textbox'));
+            echo $form->error($model,'password2');
             ?>
         </p>
 
         <p>
             <?php
-            echo CHtml::submitButton('Login', array('class'=>'ask_submit'));
+            echo CHtml::submitButton('Change password', array('class'=>'ask_submit'));
             ?>
         </p>
     <?php $this->endWidget(); ?>
