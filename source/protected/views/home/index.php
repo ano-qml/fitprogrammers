@@ -24,7 +24,7 @@
                 <div>views</div>
             </div>
             <div class="q_content">
-                <h2><a href="<?php echo Yii::app()->createUrl('questions/details', array('uid'=>$model->post_unique_id)); ?>">
+                <h2><a href="<?php echo Yii::app()->createUrl('post/index', array('uid'=>$model->post_unique_id)); ?>">
                     <?php echo $model->title; ?>
                     </a></h2>
                 <div class="q_tags">

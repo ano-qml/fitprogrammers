@@ -31,7 +31,7 @@
             <div class="post_actions">
                 <a href="#">link</a>
                 |
-                <a href="#">edit</a>
+                <a href="<?php echo Yii::app()->createUrl('post/edit', array('uid'=>$question->post_unique_id)) ?>">edit this post</a>
             </div>
             <div class="post_info">
                 asked <b><?php echo $question->created_date; ?></b>
@@ -64,7 +64,7 @@
             <div class="post_actions">
                 <a href="#">link</a>
                 |
-                <a href="#">edit</a>
+                <a href="<?php echo Yii::app()->createUrl('post/editanswer', array('uid'=>$answer->post_unique_id)) ?>">edit</a>
             </div>
             <div class="post_info">
                 answered <b><?php echo $answer->created_date ?></b>
