@@ -1,6 +1,17 @@
 <div id="leftcol">
     <h1>Latest Questions</h1>
     <div class="question_list">
+        <div class="paging">
+            <?php $this->widget('CLinkPager', array(
+                'pages' => $pages,
+                'header'=>"<b>".$count." results found.</b>",
+                'nextPageLabel'=>'Next',
+                'prevPageLabel'=>'Previous',
+                'lastPageLabel'=>'Last',
+                'firstPageLabel'=>'First'
+            )) ?>
+        </div>
+        
         <?php
         foreach ($models as $model) {
         ?>
@@ -49,6 +60,17 @@
         <?php
         }
         ?>
+        
+        <div class="paging">
+            <?php $this->widget('CLinkPager', array(
+                'pages' => $pages,
+                'header'=>"<b>".$count." results found.</b>",
+                'nextPageLabel'=>'Next',
+                'prevPageLabel'=>'Previous',
+                'lastPageLabel'=>'Last',
+                'firstPageLabel'=>'First'
+            )) ?>
+        </div>
     </div>         
 </div>
 

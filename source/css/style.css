@@ -334,3 +334,11 @@ div.error {
     margin-top: 15px;
     height: 20px;
 }
+
+.paging {
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: right;
+    margin-right: 20px;
+}

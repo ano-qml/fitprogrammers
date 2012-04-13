@@ -7,12 +7,18 @@ class HomeController extends Controller
         $criteria = new CDbCriteria();
         $criteria->condition = 'is_a_question = 1';
         
+        // Paging
+        $count = Posts::model()->count($criteria);
+        $pages = new CPagination($count);
+        $pages->pageSize = 1;
+        $pages->applyLimit($criteria);
+        
         $models = Posts::model()->findAll($criteria);
         foreach ($models as $model) {
             $model->tags = explode(",", $model->tags);
         }
         
-		$this->render('index', array('models'=>$models));
+		$this->render('index', array('models'=>$models,'pages'=>$pages,'count'=>$count));
 	}
 
 	// Uncomment the following methods and override them if needed
