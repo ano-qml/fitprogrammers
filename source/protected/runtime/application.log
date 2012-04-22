@@ -1867,3 +1867,333 @@ in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
 in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/UserController.php (56)
 in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/UserController.php (42)
 in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:09 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (104)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:18 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (104)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:25 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (104)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:25 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:33 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (104)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:53:33 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:14 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:17 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:17 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:34 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:36 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:36 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:39 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:40 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:54:56 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (106)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:40 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:42 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:42 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:42 [error] [php] Undefined index: body (/Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php:33)
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): QuestionsController->runAction()
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): QuestionsController->runActionWithFilters()
+#2 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): QuestionsController->run()
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#5 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/questions/post
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (33)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:55 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:57 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:55:59 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:01 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:01 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:03 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:03 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:36 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (106)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:56:36 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:57:05 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:57:16 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:57:46 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:57:58 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (105)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 10:57:58 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:02:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "uid".' in /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(271): CController->missingAction('uid')
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): CController->run('uid')
+#2 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('post/uid/32C37D...')
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/post/uid/32C37DFD-B1A6-857F-55EB-1827B085937F
+HTTP_REFERER=http://localhost/fitprogrammers/source/home/index
+---
+2012/04/13 11:02:57 [error] [exception.CException] exception 'CException' with message 'PostController and its behaviors do not have a method or closure named "performAjaxValidation".' in /Users/qmha/Webroot/www/frameworks/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(23): CComponent->__call('performAjaxVali...', Array)
+#1 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(23): PostController->performAjaxValidation(Object(Posts))
+#2 [internal function]: PostController->actionIndex('32C37DFD-B1A6-8...')
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): CController->run('index')
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('post/index')
+#10 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#11 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fitprogrammers/source/post/index?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+HTTP_REFERER=http://localhost/fitprogrammers/source/home/index
+---
+2012/04/13 11:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "question/edit".' in /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('question/edit')
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fitprogrammers/source/question/edit?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+HTTP_REFERER=http://localhost/fitprogrammers/source/post/index?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+---
+2012/04/13 11:05:26 [error] [php] Undefined variable: model (/Users/qmha/Webroot/www/fitprogrammers/source/protected/views/post/edit.php:20)
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(870): PostController->renderFile()
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(783): PostController->renderPartial()
+#2 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(64): PostController->render()
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(50): PostController->actionEdit()
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): PostController->runAction()
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): PostController->runActionWithFilters()
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): PostController->run()
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/edit?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/views/post/edit.php (20)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (64)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:05:32 [error] [php] Undefined variable: model (/Users/qmha/Webroot/www/fitprogrammers/source/protected/views/post/edit.php:20)
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(870): PostController->renderFile()
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(783): PostController->renderPartial()
+#2 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(64): PostController->render()
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(50): PostController->actionEdit()
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): PostController->runAction()
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): PostController->runActionWithFilters()
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): PostController->run()
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/edit?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/views/post/edit.php (20)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (64)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:09:07 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column '32C37DFD' in 'where clause'. The SQL statement executed was: SELECT * FROM `posts` `t` WHERE post_unique_id = 32C37DFD-B1A6-857F-55EB-1827B085937F LIMIT 1.
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (64)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:09:07 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column '32C37DFD' in 'where clause'. The SQL statement executed was: SELECT * FROM `posts` `t` WHERE post_unique_id = 32C37DFD-B1A6-857F-55EB-1827B085937F LIMIT 1' in /Users/qmha/Webroot/www/frameworks/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 /Users/qmha/Webroot/www/frameworks/yii/framework/db/ar/CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(64): CActiveRecord->find('post_unique_id ...')
+#4 [internal function]: PostController->actionEdit('32C37DFD-B1A6-8...')
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): CController->run('edit')
+#11 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('post/edit')
+#12 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fitprogrammers/source/post/edit?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+---
+2012/04/13 11:09:20 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-B1A6-857F-55EB-1827B085937F LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `posts` `t` WHERE post_unique_id LIKE 32C37DFD-B1A6-857F-55EB-1827B085937F LIMIT 1.
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (64)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:09:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-B1A6-857F-55EB-1827B085937F LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `posts` `t` WHERE post_unique_id LIKE 32C37DFD-B1A6-857F-55EB-1827B085937F LIMIT 1' in /Users/qmha/Webroot/www/frameworks/yii/framework/db/CDbCommand.php:528
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/db/CDbCommand.php(408): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/db/ar/CActiveRecord.php(1287): CDbCommand->queryRow()
+#2 /Users/qmha/Webroot/www/frameworks/yii/framework/db/ar/CActiveRecord.php(1392): CActiveRecord->query(Object(CDbCriteria))
+#3 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php(64): CActiveRecord->find('post_unique_id ...')
+#4 [internal function]: PostController->actionEdit('32C37DFD-B1A6-8...')
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): CController->run('edit')
+#11 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('post/edit')
+#12 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/fitprogrammers/source/post/edit?uid=32C37DFD-B1A6-857F-55EB-1827B085937F
+---
+2012/04/13 11:10:21 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (129)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (65)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:10:22 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (70)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:10:30 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (129)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (65)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:10:31 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (70)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:11:20 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (129)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (65)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:11:20 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (70)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:12:17 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (129)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (65)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:12:17 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/PostController.php (70)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:25:21 [error] [php] include(ServiceItems.php): failed to open stream: No such file or directory (/Users/qmha/Webroot/www/frameworks/yii/framework/YiiBase.php:418)
+Stack trace:
+#0 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/HomeController.php(11): spl_autoload_call()
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(50): HomeController->actionIndex()
+#2 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): HomeController->runAction()
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): HomeController->runActionWithFilters()
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): HomeController->run()
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/home/index
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/HomeController.php (11)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/13 11:25:46 [error] [php] Undefined variable: count (/Users/qmha/Webroot/www/fitprogrammers/source/protected/views/home/index.php:7)
+Stack trace:
+#0 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(870): HomeController->renderFile()
+#1 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(783): HomeController->renderPartial()
+#2 /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/HomeController.php(21): HomeController->render()
+#3 /Users/qmha/Webroot/www/frameworks/yii/framework/web/actions/CInlineAction.php(50): HomeController->actionIndex()
+#4 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#5 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(287): HomeController->runAction()
+#6 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CController.php(266): HomeController->runActionWithFilters()
+#7 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(276): HomeController->run()
+#8 /Users/qmha/Webroot/www/frameworks/yii/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#9 /Users/qmha/Webroot/www/frameworks/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/qmha/Webroot/www/fitprogrammers/source/index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/home/index
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/views/home/index.php (7)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/HomeController.php (21)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/18 23:08:35 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (48)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/18 23:08:37 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (48)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/18 23:08:44 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (48)
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (19)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/18 23:08:44 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
+in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
