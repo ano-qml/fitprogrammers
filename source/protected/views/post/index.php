@@ -1,5 +1,5 @@
 <div class="post_title">
-    A question on .NET Course: how can we manage to do the source code when we dont know it
+    <?php echo $question->title; ?>
 </div>
 
 

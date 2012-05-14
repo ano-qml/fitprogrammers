@@ -30,11 +30,13 @@ class PostController extends Controller
             $model->post_unique_id = FApp::guid();
             $model->last_version_id = -1;
             $model->title = $question->title;
+            $model->body = $_POST['Posts']['body'];
             $model->author = FMembership::getUser()->user->member_id;
             $model->parent_unique_id = $uid;
             $model->created_date = date('Y-m-d H:i:s');
             $model->is_a_question = 0;
             $model->tags = $question->tags;
+            var_dump($model->attributes);
             // Validate
             if ($model->validate()) {
                 // Post an answer
@@ -42,12 +44,39 @@ class PostController extends Controller
                     /* 
                     * Update post statistics
                     */
-                    $question->setAttribute('answer_count', $question->getAttribute('answer_count')+1);
+                    $answer_count = $question->getAttribute('answer_count') + 1;
                     $question->tags = implode(",", $question->tags);
-                    $question->update();
-
+                    Yii::app()->db->createCommand()
+                            ->update('posts', 
+                                    array(
+                                        'answer_count'=>$answer_count
+                                    ),
+                                    'post_unique_id = :id',
+                                    array('id'=>$question->getAttribute('post_unique_id')));
+                    
                     // Insert
-                    if ($model->insert()) $this->redirect (Yii::app()->createUrl('questions/details', array('uid'=>$uid)));
+                    try {
+                        Yii::app()->db->createCommand()
+                            ->insert(
+                                'posts',
+                                array(
+                                    'post_unique_id'=>$model->post_unique_id,
+                                    'last_version_id'=>-1,
+                                    'title'=>$model->title,
+                                    'body'=>$model->body,
+                                    'author'=>$model->author,
+                                    'parent_unique_id'=>$model->parent_unique_id,
+                                    'tags'=>$question->tags,
+                                    'created_date'=>$model->created_date,
+                                    'is_a_question'=>$model->is_a_question
+                                )
+                        );
+                        $this->redirect (Yii::app()->createUrl('post/index', array('uid'=>$uid)));
+                        
+                    }
+                    catch (CDbException $e) {
+                        throw new CDbException($e->getMessage());
+                    }
                 }
             }
         }

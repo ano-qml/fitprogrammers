@@ -10,7 +10,7 @@ class HomeController extends Controller
         // Paging
         $count = Posts::model()->count($criteria);
         $pages = new CPagination($count);
-        $pages->pageSize = 1;
+        $pages->pageSize = 20;
         $pages->applyLimit($criteria);
         
         $models = Posts::model()->findAll($criteria);

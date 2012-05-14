@@ -19,6 +19,9 @@ class UserController extends Controller
                     $userinfo->user = $user;
                     FMembership::saveSession($userinfo);
                 }
+                else {
+                    echo "<script>alert('Oops! It seems that your username or password is incorrect')</script>";
+                }
                 $this->redirect(Yii::app()->createUrl('home/index'));
             }
         }

@@ -25,7 +25,8 @@
     <div id="wrapper">
         <div id="header">
             <div class="logo">
-                <a href="<?php echo Yii::app()->createUrl('home/index'); ?>"><img src="<?php echo Yii::app()->baseUrl ?>/images/fitprogrammers.png" /></a>
+                <a href="<?php echo Yii::app()->createUrl('home/index'); ?>">
+                    <img src="<?php echo Yii::app()->baseUrl ?>/images/fitprogrammers.png" style="border:none;" /></a>
             </div>
             <div class="mainmenu">
                 <ul>
