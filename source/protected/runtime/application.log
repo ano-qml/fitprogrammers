@@ -2197,3 +2197,417 @@ in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
 2012/04/18 23:08:44 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
 in /Users/qmha/Webroot/www/fitprogrammers/source/protected/controllers/QuestionsController.php (24)
 in /Users/qmha/Webroot/www/fitprogrammers/source/index.php (13)
+2012/04/23 04:01:11 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (129)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 04:01:26 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (129)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 04:01:26 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 05:11:26 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (129)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 05:11:26 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 05:11:29 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (129)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 05:11:29 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:52:33 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:52:53 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:03 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:05 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:13 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:13 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (24)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:57 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (135)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/04/23 08:53:58 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:44:07 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (144)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:44:22 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (144)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:46:03 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (144)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:46:03 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:53:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (153)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:53:00 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:53:29 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (30)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:54:37 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (30)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:55:12 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (30)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:57:04 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (154)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:57:04 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:58:20 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (29)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:31 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:31 [error] [php] Undefined index: body (C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php:33)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (33)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:53 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (155)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:53 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:53 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'F30B0939' in 'where clause'. The SQL statement executed was: UPDATE `posts` SET `answer_count`=:answer_count WHERE post_unique_id = F30B0939-3E46-44BC-9396-708560C12778.
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (54)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 05:59:53 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'F30B0939' in 'where clause'. The SQL statement executed was: UPDATE `posts` SET `answer_count`=:answer_count WHERE post_unique_id = F30B0939-3E46-44BC-9396-708560C12778' in C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php(1212): CDbCommand->execute(Array)
+#1 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(54): CDbCommand->update('posts', Array, 'post_unique_id ...')
+#2 [internal function]: PostController->actionIndex('F30B0939-3E46-4...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(PostController), Array)
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(PostController), Object(ReflectionMethod), Array)
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('post/index')
+#10 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+HTTP_REFERER=http://localhost:81/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:00:54 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:00:54 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(72): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (72)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:02:22 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:02:22 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(72): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (72)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:04:47 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:04:47 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(73): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (73)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:05:18 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:05:18 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(73): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (73)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:05:48 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:05:48 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(73): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (73)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:06:43 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:06:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+HTTP_REFERER=http://localhost:81/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:06:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:07:42 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (157)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:07:42 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:07:43 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(73): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (73)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:08:25 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:08:25 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(72): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (72)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:08:42 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:08:42 [error] [php] Array to string conversion (C:\Portables\xampp\htdocs\frameworks\yii\framework\db\CDbCommand.php:336)
+Stack trace:
+#0 C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php(73): CDbCommand->insert()
+#1 unknown(0): PostController->actionIndex()
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#4 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(287): PostController->runAction()
+#6 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(266): PostController->runActionWithFilters()
+#7 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): PostController->run()
+#8 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CWebApplication->run()
+REQUEST_URI=/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (73)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:08:53 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:09:48 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:09:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+HTTP_REFERER=http://localhost:81/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:10:39 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (161)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:10:39 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:11:25 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+HTTP_REFERER=http://localhost:81/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:13:05 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (161)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:13:05 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:13:26 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:13:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "details".' in C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CController.php(271): CController->missingAction('details')
+#1 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(276): CController->run('details')
+#2 C:\Portables\xampp\htdocs\frameworks\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('questions/detai...')
+#3 C:\Portables\xampp\htdocs\frameworks\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\Portables\xampp\htdocs\fitprogrammers\source\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/fitprogrammers/source/questions/details?uid=F30B0939-3E46-44BC-9396-708560C12778
+HTTP_REFERER=http://localhost:81/fitprogrammers/source/post/index?uid=F30B0939-3E46-44BC-9396-708560C12778
+---
+2012/05/14 06:13:57 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (158)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:13:57 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:14:12 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:14:21 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (48)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (19)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:14:21 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\QuestionsController.php (24)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:14:29 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (158)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (23)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
+2012/05/14 06:14:29 [warning] [application] Failed to set unsafe attribute "body" of "Posts".
+in C:\Portables\xampp\htdocs\fitprogrammers\source\protected\controllers\PostController.php (28)
+in C:\Portables\xampp\htdocs\fitprogrammers\source\index.php (13)
